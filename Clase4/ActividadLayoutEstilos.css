@@ -1,0 +1,41 @@
+/* Estilos base para visualización */
+#contenedor {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ff9bc3;
+    padding: 10px;
+}
+
+#cabecera, #pie {
+    background-color: #8d78dbb1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Aplicación de Floats según el diagrama */
+#menu {
+    float: right;
+    width: 25%; /* Ancho para el menú */
+    background-color: #76c7d2;
+    border: 1px solid #ccc;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#contenido {
+    float: left;
+    width: 70%; /* Ancho para el contenido */
+    margin-left: 3%; /* Espacio entre columnas */
+    background-color: #c5ac6f;
+    border: 1px solid #ccc;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+/* Limpieza de floats para que el pie se mantenga debajo */
+#pie {
+    clear: both;
+}
