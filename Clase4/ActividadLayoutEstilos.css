@@ -6,7 +6,8 @@
     padding: 10px;
 }
 
-#cabecera, #pie {
+#cabecera{
+    display: none;
     background-color: #8d78dbb1;
     border: 1px solid #ccc;
     padding: 20px;
@@ -34,6 +35,10 @@
 }
 
 #pie {
-    display: none;
     clear: both;
+    background-color: #8d78dbb1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
 }
