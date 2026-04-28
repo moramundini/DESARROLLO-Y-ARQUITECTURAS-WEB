@@ -1,4 +1,3 @@
-/* Estilos base para visualización */
 #contenedor {
     width: 90%;
     max-width: 800px;
@@ -15,10 +14,10 @@
     margin-bottom: 10px;
 }
 
-/* Aplicación de Floats según el diagrama */
 #menu {
+    display: none;
     float: right;
-    width: 25%; /* Ancho para el menú */
+    width: 25%; 
     background-color: #76c7d2;
     border: 1px solid #ccc;
     height: 200px;
@@ -27,15 +26,14 @@
 
 #contenido {
     float: left;
-    width: 70%; /* Ancho para el contenido */
-    margin-left: 3%; /* Espacio entre columnas */
+    width: 70%; 
+    margin-left: 3%; 
     background-color: #c5ac6f;
     border: 1px solid #ccc;
     height: 300px;
     margin-bottom: 10px;
 }
 
-/* Limpieza de floats para que el pie se mantenga debajo */
 #pie {
     clear: both;
 }
