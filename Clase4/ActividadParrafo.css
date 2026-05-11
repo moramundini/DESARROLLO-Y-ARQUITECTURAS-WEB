@@ -1,0 +1,55 @@
+#contenedor {
+    width: 100%;
+    max-width: 10000px;
+    margin: 0px auto;
+    border: 1px solid #ff9bc3;
+    padding: 10px;
+}
+
+#cabecera{
+    background-image: url('https://img.freepik.com/premium-photo/game-controller-pastel-colored-background-pastel-joystick-illustration-gamepad-game-console-3d_158001-5627.jpg'); 
+
+    background-size: cover;       
+    background-position: center;  
+    
+    color:#682e67;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu {
+    float: left;
+    width: 20%; 
+    background-color: #e581d1;
+    border: 1px solid #ccc;
+    height: 800px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenido {
+    float: left;
+    width: 77%; 
+    margin-left: 1%; 
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    height: 800px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pie {
+    clear: both;
+    background-color: #752864b1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
